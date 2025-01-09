@@ -4,10 +4,12 @@ public class Main
 {
   public static void main(String[] args)
   {
+    Math.abs(3);
+    Dog.calculate();
     Dog dog1 = new Dog();
     Dog dog2 = new Dog();
     dog1.setName("Clam");
-    dog2.setID(0927);
+    dog2.setID(927);
 
     Scanner sc = new Scanner(System.in);
     String input = "";
